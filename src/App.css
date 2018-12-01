@@ -7,7 +7,7 @@
   height: 40vmin;
 }
 
-.App-header {
+#home-section {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -18,8 +18,37 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#projects-section {
+  background-color: #3367ce;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#resume-section {
+  background-color: #ce5733;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#contact-section {
+  background-color: #33ce6e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 @keyframes App-logo-spin {

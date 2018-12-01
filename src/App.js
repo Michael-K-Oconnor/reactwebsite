@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Nav from './Nav.js';
+import Home from './Home.js';
+import Projects from './Projects.js';
+import Resume from './Resume.js';
+import Contact from './Contact.js';
+import { Grid, Row, Col } from 'react-bootstrap';
+import { StickyContainer, Sticky } from 'react-sticky';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <StickyContainer>
+          {/* <Sticky> */}
+            <Nav />
+          {/* </Sticky> */}
+        </StickyContainer>
+        <Home />
+        <Projects />
+        <Resume />
+        <Contact />
       </div>
     );
   }
