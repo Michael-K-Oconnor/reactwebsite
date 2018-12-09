@@ -5,19 +5,16 @@ import Home from './Home.js';
 import Projects from './Projects.js';
 import Resume from './Resume.js';
 import Contact from './Contact.js';
-import { Grid, Row, Col } from 'react-bootstrap';
-import { StickyContainer, Sticky } from 'react-sticky';
-
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <StickyContainer>
+        {/* <StickyContainer> */}
           {/* <Sticky> */}
-            <Nav />
+            <Nav/>
           {/* </Sticky> */}
-        </StickyContainer>
+        {/* </StickyContainer> */}
         <Home />
         <Projects />
         <Resume />
